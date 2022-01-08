@@ -4,6 +4,11 @@ main.py
 The core module of my example project
 """
 
+def test_codacy_coverage():
+    """
+    Test the codacy coverage.
+    """
+    assert True
 
 def capitalize_name(your_name: str):
     """Decorator that checks NumPy results and CuPy ones are equal.
