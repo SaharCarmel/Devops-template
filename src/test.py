@@ -7,7 +7,7 @@ The core module of my example project
 
 def capitalize_name(your_name: str):
     """Decorator that checks NumPy results and CuPy ones are equal.
-   
+
     Args:
          err_msg(str): The error message to be printed in case of failure.
          verbose(bool): If ``True``, the conflicting values are
@@ -34,7 +34,7 @@ def capitalize_name(your_name: str):
     (except the type of array module) even if ``xp`` is ``numpy`` or ``cupy``.
     .. seealso:: :func:`cupy.testing.assert_array_equal`
     """
-    
+
     return your_name.capitalize()
 
 
