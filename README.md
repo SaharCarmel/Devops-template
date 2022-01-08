@@ -11,7 +11,7 @@ Our main goal is to make most of the automated checks and templates easily avail
 Please feel free to request and add more automated tasks or templates.
 
 ## Example of pull request actions
-![](demo.png)
+![](/media/demo.png)
 
 In our vision, upon opening a new python repository, one should import from this repository its stable state and instantly get the basic level of test and checks automation to start with. 
 
